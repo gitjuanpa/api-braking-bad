@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Breaking Bad</title>
+</head>
+<body>
+   <nav class="navbar">
+       <div class="container navbar-content">
+           <img src="https://ahnlok.github.io/breaking-bad-api-react/static/media/logo.e6ecab44.png" class="logoBr" alt="">
+
+       </div>
+    </nav>
+    <header class="container filter-content my-2">
+        <form class="form-search" id="formulario">
+            <i class="fas fa-search"></i>
+            <input type="text"  placeholder="Ingrese un Nombre" id="inputFormulario">
+        </form>
+    
+        <div class="custom-select"style="width:200px;" >
+            <select >
+                <option value="">Seleccionar Status</option>
+                <option value="">Todos</option>
+                <option value="">Status</option>
+                <option value="Alive">Alive</option>
+                <option value="Presumed dead">Presumed dead</option>
+                <option value="Deceased">Deceased</option>
+                
+            </select>
+        </div>
+        <div class="custom-select"style="width:200px;" >
+            <select>
+                <option value="">Seleccionar Category</option>
+                <option value="">Todos</option>
+                <option value="">Category</option>
+                <option value="Breaking Bad">Breaking Bad</option>
+                <option value="Better Call Saul">Better Call Saul</option>
+            </select>
+
+        </div>
+    </header>
+    <main class="container grid" id="personajes">
+        <article class="card">
+            <img src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg" alt="" class="img-fluid card__background">
+            <div class="card-content ">
+                <p >
+                   <b> name:</b>
+                   bryan
+                </p>
+                <p>
+                    <b>birthday:</b>
+                </p>
+                <p>
+                    <b>status:</b>
+                </p>
+                <p>
+                    <b>appearance:</b>
+                </p>
+                <p>
+                    <b> portrayed: </b>
+                </p>
+                <p>
+                    <b> category:</b>
+                </p>
+                <p>
+                    <b class="ocu">occupation:</b>
+                </p>
+
+            </div>
+
+        </article>
+        
+    </main>
+        
+    
+    <script src="js/api.js"></script>
+    <script src="js/custom-select.js"></script>
+    <script src="js/formulario.js"></script>
+    
+</body>
+</html>
